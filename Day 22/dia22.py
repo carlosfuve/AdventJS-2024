@@ -1,5 +1,4 @@
-
-def generate_gift_sets(gifts):
+def generate_gift_sets(gifts: list[str]) -> list[list[str]]:
     def generate_all_combinations(items):
         if not items:
             return [[]]
@@ -13,13 +12,3 @@ def generate_gift_sets(gifts):
     result.remove([])
       
     return sorted(result,key=len)
-
-
-
-
-
-#print(generate_gift_sets(['car']))
-#print(generate_gift_sets(['car','doll']))
-print(generate_gift_sets(['car', 'doll', 'puzzle']))
-
-#print(generate_all_combinations(['car', 'doll', 'puzzle']))
