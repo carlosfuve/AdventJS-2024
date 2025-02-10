@@ -17,21 +17,3 @@ def draw_table(data: list[dict[str, str | int]]) -> str:
     ]
 
     return "\n".join([separador, box_header, separador] + rows + [separador])
-
-
-print(
-  draw_table([
-  { 'name': 'Alice', 'city': 'London' },
-  #{ 'name': 'Bob', 'city': 'Paris' },
- #{ 'name': 'Charlie', 'city': 'New York' }
-])
-)
-
-
-print(
-draw_table([
-  { 'gift': 'Doll', 'quantity': 10 },
-  { 'gift': 'Book', 'quantity': 5 },
-  { 'gift': 'Music CD', 'quantity': 1 }
-])
-)
