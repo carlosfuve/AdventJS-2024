@@ -25,20 +25,3 @@ def fix_gift_list(received: list[str], expected: list[str]) -> dict[str, int]:
         "missing": res_miss,
         "extra": res_ext
     }
-
-
-
-
-
-
-
-  
-
-
-#print(fix_gift_list(['bear', 'bear', 'car'], ['bear', 'bear', 'car']))
-#print(fix_gift_list(['bear', 'car'], ['bear', 'bear', 'car']))
-print(fix_gift_list(['bear','bear','bear', 'car'], ['bear', 'bear', 'car']))
-
-
-#  missing: { ball: 1 },
-#  extra: { car: 1 }

@@ -36,14 +36,3 @@ def distribute_weight(weight: int) -> str:
 
 
 
-print(distribute_weight(1))
-
-
-print(distribute_weight(2))
-
-
-print(distribute_weight(18))
-
-
-
-
