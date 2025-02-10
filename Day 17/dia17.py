@@ -12,11 +12,3 @@ def detect_bombs(grid: list[list[bool]]) -> list[list[int]]:
                         result[nx][ny] += 1
 
     return result
-
-print(
-detect_bombs([
-  [True, False, False],
-  [False, True, False],
-  [False, False, False]
-])
-)
