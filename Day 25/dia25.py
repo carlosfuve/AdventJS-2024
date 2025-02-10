@@ -41,13 +41,3 @@ def execute(code: str) -> int:
         i+=1
 
     return resultado
-
-
-print(execute('+++')) #3
-print(execute('+--')) #-1
-print(execute('>+++[-]')) #0
-print(execute('>>>+{++}')) #3
-print(execute('+{[-]+}+')) #2
-print(execute('{+}{+}{+}')) #0
-print(execute('-----[+]++')) #2
-print(execute('-[++{-}]+{++++}')) #5
